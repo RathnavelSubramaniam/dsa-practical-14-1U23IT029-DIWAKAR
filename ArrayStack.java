@@ -5,7 +5,7 @@ public class ArrayStack {
     private int capacity;
     private int top = -1;
 
-    // Task 3: Create a Parameterized Constructor
+    
     public ArrayStack(int len) {
         capacity = len;
         stack = new char[len];
